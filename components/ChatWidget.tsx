@@ -31,7 +31,7 @@ export function ChatWidget() {
   useEffect(() => {
     if (messages.length > 0) {
       const lastMessage = messages[messages.length - 1];
-      if (lastMessage.message.includes('Thank you for using Sterling & Associates support! Have a great day!')) {
+      if (lastMessage.message.includes('Thank you for using Anderson Tyson support! Have a great day!')) {
         // Close chat after 3 seconds
         const timer = setTimeout(() => {
           setIsOpen(false);
@@ -74,7 +74,7 @@ export function ChatWidget() {
     return (
       <Button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 h-12 w-12 sm:h-14 sm:w-14 rounded-full bg-amber-600 hover:bg-amber-700 dark:bg-amber-600 dark:hover:bg-amber-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 z-50"
+        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 h-12 w-12 sm:h-14 sm:w-14 rounded-full bg-blue-900 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 z-50"
         size="sm"
       >
         <MessageCircle className="h-6 w-6" />
@@ -86,14 +86,14 @@ export function ChatWidget() {
   return (
     <Card className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 w-80 sm:w-96 md:w-[28rem] h-[500px] sm:h-[550px] md:h-[600px] flex flex-col shadow-xl bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 z-50">
       {/* Header */}
-      <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700 bg-amber-50 dark:bg-amber-900/30">
+      <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700 bg-blue-50 dark:bg-blue-950/40">
         <div className="flex items-center space-x-3">
-          <div className="h-8 w-8 rounded-full bg-amber-600 dark:bg-amber-500 flex items-center justify-center">
+          <div className="h-8 w-8 rounded-full bg-blue-900 dark:bg-blue-400 flex items-center justify-center">
             <MessageCircle className="h-4 w-4 text-white" />
           </div>
           <div>
             <h3 className="font-semibold text-sm text-gray-900 dark:text-gray-100">Virtual Assistant</h3>
-            <p className="text-xs text-amber-600 dark:text-amber-400">Sterling & Associates</p>
+            <p className="text-xs text-blue-900 dark:text-blue-400">Anderson Tyson</p>
           </div>
         </div>
         <div className="flex items-center space-x-1">
@@ -101,7 +101,7 @@ export function ChatWidget() {
             variant="ghost"
             size="sm"
             onClick={handleNewSession}
-            className="h-8 w-8 p-0 hover:bg-amber-100 dark:hover:bg-amber-800 text-amber-600 dark:text-amber-400"
+            className="h-8 w-8 p-0 hover:bg-blue-100 dark:hover:bg-blue-900 text-blue-900 dark:text-blue-400"
             title="New conversation"
           >
             <RotateCcw className="h-4 w-4" />
@@ -111,7 +111,7 @@ export function ChatWidget() {
             variant="ghost"
             size="sm"
             onClick={() => setIsOpen(false)}
-            className="h-8 w-8 p-0 hover:bg-amber-100 dark:hover:bg-amber-800 text-amber-600 dark:text-amber-400"
+            className="h-8 w-8 p-0 hover:bg-blue-100 dark:hover:bg-blue-900 text-blue-900 dark:text-blue-400"
           >
             <X className="h-4 w-4" />
             <span className="sr-only">Close chat</span>
@@ -130,7 +130,7 @@ export function ChatWidget() {
                 className={`max-w-[85%] rounded-xl px-4 py-3 text-sm leading-relaxed ${
                   message.role === "assistant"
                     ? "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border border-gray-200 dark:border-gray-700 shadow-sm"
-                    : "bg-amber-600 dark:bg-amber-500 text-white shadow-sm"
+                    : "bg-blue-900 dark:bg-blue-400 text-white shadow-sm"
                 }`}
               >
                 <div className="whitespace-pre-wrap">{message.message}</div>
@@ -146,7 +146,7 @@ export function ChatWidget() {
                     variant="outline"
                     size="sm"
                     onClick={() => handleSuggestionClick(suggestion)}
-                    className="text-xs h-8 px-3 bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-amber-50 dark:hover:bg-amber-900/30 hover:border-amber-300 dark:hover:border-amber-600"
+                    className="text-xs h-8 px-3 bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-blue-950/40 hover:border-blue-900 dark:hover:border-blue-400"
                     disabled={isLoading}
                   >
                     {suggestion}
@@ -163,9 +163,9 @@ export function ChatWidget() {
             <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-3 text-sm shadow-sm">
               <div className="flex items-center space-x-2">
                 <div className="flex space-x-1">
-                  <div className="w-2 h-2 bg-amber-600 dark:bg-amber-400 rounded-full animate-pulse"></div>
-                  <div className="w-2 h-2 bg-amber-600 dark:bg-amber-400 rounded-full animate-pulse delay-75"></div>
-                  <div className="w-2 h-2 bg-amber-600 dark:bg-amber-400 rounded-full animate-pulse delay-150"></div>
+                  <div className="w-2 h-2 bg-blue-900 dark:bg-blue-400 rounded-full animate-pulse"></div>
+                  <div className="w-2 h-2 bg-blue-900 dark:bg-blue-400 rounded-full animate-pulse delay-75"></div>
+                  <div className="w-2 h-2 bg-blue-900 dark:bg-blue-400 rounded-full animate-pulse delay-150"></div>
                 </div>
                 <span className="text-gray-500 dark:text-gray-400 text-xs">Typing...</span>
               </div>
@@ -183,13 +183,13 @@ export function ChatWidget() {
             onChange={(e) => setInputValue(e.target.value)}
             onKeyPress={handleKeyPress}
             placeholder="Type your message..."
-            className="flex-1 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-amber-500 focus:ring-amber-500"
+            className="flex-1 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-blue-900 focus:ring-blue-900"
             disabled={isLoading}
           />
           <Button
             onClick={handleSendMessage}
             size="sm"
-            className="h-10 w-10 p-0 bg-amber-600 hover:bg-amber-700 dark:bg-amber-600 dark:hover:bg-amber-700 text-white"
+            className="h-10 w-10 p-0 bg-blue-900 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 text-white"
             disabled={!inputValue.trim() || isLoading}
           >
             <Send className="h-4 w-4" />

@@ -27,7 +27,7 @@ export function ContactDialog({ children }: ContactDialogProps) {
             {/* Phone Contact */}
             <div className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
               <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-amber-600 dark:text-amber-400" />
+                <Phone className="h-5 w-5 text-blue-900 dark:text-blue-400" />
                 <div>
                   <div className="font-medium text-gray-900 dark:text-gray-100">Call Us</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Speak directly with our team</div>
@@ -35,7 +35,7 @@ export function ContactDialog({ children }: ContactDialogProps) {
               </div>
               <a 
                 href="tel:+18555998052"
-                className="text-amber-600 dark:text-amber-400 hover:text-amber-700 dark:hover:text-amber-300 text-sm font-medium transition-colors duration-200"
+                className="text-blue-900 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 text-sm font-medium transition-colors duration-200"
               >
                 +1 (855) 599-8052
               </a>
@@ -44,7 +44,7 @@ export function ContactDialog({ children }: ContactDialogProps) {
             {/* Message Contact */}
             <div className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
               <div className="flex items-center space-x-3">
-                <MessageCircle className="h-5 w-5 text-amber-600 dark:text-amber-400" />
+                <MessageCircle className="h-5 w-5 text-blue-900 dark:text-blue-400" />
                 <div>
                   <div className="font-medium text-gray-900 dark:text-gray-100">Send Message</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Text us directly</div>
@@ -52,7 +52,7 @@ export function ContactDialog({ children }: ContactDialogProps) {
               </div>
               <a 
                 href="sms:+18555998052"
-                className="text-amber-600 dark:text-amber-400 hover:text-amber-700 dark:hover:text-amber-300 text-sm font-medium transition-colors duration-200"
+                className="text-blue-900 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 text-sm font-medium transition-colors duration-200"
               >
                 Message
               </a>

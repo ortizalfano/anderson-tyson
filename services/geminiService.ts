@@ -42,7 +42,7 @@ class GeminiService {
    * Generate system prompt for the chatbot
    */
   private getSystemPrompt(): string {
-    return `You are a virtual assistant specialized in helping Sterling & Associates customers find their transactions and resolve billing issues.
+    return `You are a virtual assistant specialized in helping Anderson Tyson customers find their transactions and resolve billing issues.
 
 INSTRUCTIONS:
 1. Be friendly, professional, and helpful

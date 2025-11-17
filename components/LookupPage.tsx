@@ -139,7 +139,7 @@ export function LookupPage({ onBack, onFoundPurchase }: LookupPageProps) {
             Help us find your purchase
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto px-4 sm:px-6 md:px-0 leading-relaxed">
-            We only need the last 4 digits of your card to locate your transaction with Sterling and Associates.
+            We only need the last 4 digits of your card to locate your transaction with Anderson Tyson.
           </p>
         </div>
 
@@ -147,7 +147,7 @@ export function LookupPage({ onBack, onFoundPurchase }: LookupPageProps) {
         <Card className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow-sm max-w-4xl mx-auto">
           <CardHeader className="p-4 sm:p-6 pb-3 sm:pb-4">
             <CardTitle className="flex items-center gap-2 text-base sm:text-lg font-semibold text-gray-900 dark:text-gray-100">
-              <Search className="h-4 w-4 sm:h-5 sm:w-5 text-amber-600 dark:text-amber-400" />
+              <Search className="h-4 w-4 sm:h-5 sm:w-5 text-blue-900 dark:text-blue-400" />
               Transaction Lookup
             </CardTitle>
           </CardHeader>
@@ -178,7 +178,7 @@ export function LookupPage({ onBack, onFoundPurchase }: LookupPageProps) {
                     }}
                     placeholder="1234"
                     maxLength={4}
-                    className={`h-12 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-amber-500 focus:ring-amber-500 ${errors.lastFour ? "border-red-500" : ""}`}
+                    className={`h-12 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-blue-900 focus:ring-blue-900 ${errors.lastFour ? "border-red-500" : ""}`}
                     disabled={isLoading}
                   />
                   {errors.lastFour && (
@@ -197,7 +197,7 @@ export function LookupPage({ onBack, onFoundPurchase }: LookupPageProps) {
                       type="date"
                       value={formData.transactionDate}
                       onChange={(e) => handleInputChange("transactionDate", e.target.value)}
-                      className="h-12 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-amber-500 focus:ring-amber-500"
+                      className="h-12 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-blue-900 focus:ring-blue-900"
                       disabled={isLoading}
                     />
                     <Calendar className="absolute right-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
@@ -215,7 +215,7 @@ export function LookupPage({ onBack, onFoundPurchase }: LookupPageProps) {
                     value={formData.amount}
                     onChange={(e) => handleInputChange("amount", e.target.value)}
                     placeholder="$49.99"
-                    className="h-12 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-amber-500 focus:ring-amber-500"
+                    className="h-12 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-blue-900 focus:ring-blue-900"
                     disabled={isLoading}
                   />
                 </div>
@@ -231,7 +231,7 @@ export function LookupPage({ onBack, onFoundPurchase }: LookupPageProps) {
                     value={formData.orderNumber}
                     onChange={(e) => handleInputChange("orderNumber", e.target.value)}
                     placeholder="INV-123456 or similar"
-                    className="h-12 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-amber-500 focus:ring-amber-500"
+                    className="h-12 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-blue-900 focus:ring-blue-900"
                     disabled={isLoading}
                   />
                 </div>
@@ -242,7 +242,7 @@ export function LookupPage({ onBack, onFoundPurchase }: LookupPageProps) {
                 <Button
                   type="submit"
                   disabled={isLoading}
-                  className="w-full bg-amber-600 hover:bg-amber-700 dark:bg-amber-600 dark:hover:bg-amber-700 text-white font-medium py-3 sm:py-3.5 md:py-4 px-4 sm:px-6 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2 h-12 sm:h-13 md:h-14 text-sm sm:text-base md:text-lg"
+                  className="w-full bg-blue-900 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 text-white font-medium py-3 sm:py-3.5 md:py-4 px-4 sm:px-6 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2 h-12 sm:h-13 md:h-14 text-sm sm:text-base md:text-lg"
                 >
                   {isLoading ? (
                     <div className="flex items-center gap-2">

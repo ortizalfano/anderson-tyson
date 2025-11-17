@@ -35,7 +35,7 @@ export function ComponentsShowcase() {
             Design System Components
           </h1>
           <p className="text-lg text-muted-foreground">
-            Sterling and Associates corporate design system showcase
+            Anderson Tyson corporate design system showcase
           </p>
         </div>
 

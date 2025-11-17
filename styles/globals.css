@@ -9,11 +9,11 @@
 :root {
   --font-size: 16px;
   
-  /* Sterling Corporate Color System */
-  --primary-gold: #FFD700;
-  --primary-gold-hover: #FFA500;
-  --primary-amber: #F59E0B;
-  --primary-amber-hover: #D97706;
+  /* Corporate Color System - Navy & White */
+  --primary-navy: #0B2447; /* Azul marino principal */
+  --primary-navy-hover: #19376D; /* Hover más claro */
+  --accent-blue: #576CBC; /* Azul de acento */
+  --accent-blue-hover: #6E84D2;
   --ink-text: #0f172a;
   --neutral-white: #ffffff;
   --neutral-surface: #f8fafc;
@@ -30,8 +30,8 @@
   --card-foreground: var(--ink-text);
   --popover: var(--neutral-white);
   --popover-foreground: var(--ink-text);
-  --primary: var(--primary-gold);
-  --primary-foreground: #1a1a1a;
+  --primary: var(--primary-navy);
+  --primary-foreground: #ffffff;
   --secondary: var(--neutral-surface);
   --secondary-foreground: var(--ink-text);
   --muted: var(--neutral-surface);
@@ -47,8 +47,8 @@
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-normal: 400;
-  --ring: var(--primary-gold);
-  --chart-1: var(--primary-gold);
+  --ring: var(--primary-navy);
+  --chart-1: var(--primary-navy);
   --chart-2: var(--success);
   --chart-3: var(--warning);
   --chart-4: var(--error);
@@ -56,8 +56,8 @@
   --radius: 0.75rem;
   --sidebar: var(--neutral-surface);
   --sidebar-foreground: var(--ink-text);
-  --sidebar-primary: var(--primary-gold);
-  --sidebar-primary-foreground: #1a1a1a;
+  --sidebar-primary: var(--primary-navy);
+  --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: var(--neutral-white);
   --sidebar-accent-foreground: var(--ink-text);
   --sidebar-border: var(--subtle-border);
@@ -72,7 +72,7 @@
   --card-foreground: var(--neutral-white);
   --popover: #0f172a;
   --popover-foreground: var(--neutral-white);
-  --primary: #F59E0B;
+  --primary: var(--accent-blue);
   --primary-foreground: #0b1020;
   --secondary: #0f172a;
   --secondary-foreground: var(--neutral-white);
@@ -86,15 +86,15 @@
   --input: #1e293b;
   --input-background: #0f172a;
   --switch-background: #1e293b;
-  --ring: #F59E0B;
+  --ring: var(--accent-blue);
   --sidebar: #0f172a;
   --sidebar-foreground: var(--neutral-white);
-  --sidebar-primary: #F59E0B;
+  --sidebar-primary: var(--accent-blue);
   --sidebar-primary-foreground: #0b1020;
   --sidebar-accent: #1e293b;
   --sidebar-accent-foreground: var(--neutral-white);
   --sidebar-border: #1e293b;
-  --sidebar-ring: #F59E0B;
+  --sidebar-ring: var(--accent-blue);
 }
 
 @theme inline {

@@ -56,7 +56,7 @@ export function OptionsPage({ purchaseData, onBack }: OptionsPageProps) {
             <p className="text-muted-foreground mb-6">
               No se pudieron cargar los datos de la compra. Por favor, intenta buscar de nuevo.
             </p>
-            <Button onClick={onBack} className="bg-amber-600 hover:bg-amber-700 text-white">
+            <Button onClick={onBack} className="bg-blue-900 hover:bg-blue-700 text-white">
               Buscar de nuevo
             </Button>
           </div>
@@ -91,7 +91,7 @@ export function OptionsPage({ purchaseData, onBack }: OptionsPageProps) {
       title: "Request a Refund",
       description: "Get your money back for this transaction",
       icon: RefreshCw,
-      color: "bg-amber-500/10 text-amber-600 hover:bg-amber-500/20",
+      color: "bg-blue-900/10 text-blue-900 hover:bg-blue-900/20",
     },
     {
       id: "cancel",
@@ -483,7 +483,7 @@ export function OptionsPage({ purchaseData, onBack }: OptionsPageProps) {
               <Button
                 onClick={handleConfirmAction}
                 disabled={isProcessing}
-                className="flex-1 h-11 sm:h-12 bg-amber-600 hover:bg-amber-700 dark:bg-amber-600 dark:hover:bg-amber-700 text-white font-medium rounded-lg text-sm sm:text-base order-1 sm:order-2 transition-all duration-200 shadow-sm hover:shadow-md focus-ring disabled:opacity-50 disabled:cursor-not-allowed"
+                className="flex-1 h-11 sm:h-12 bg-blue-900 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 text-white font-medium rounded-lg text-sm sm:text-base order-1 sm:order-2 transition-all duration-200 shadow-sm hover:shadow-md focus-ring disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isProcessing ? 'Processing...' : (selectedActionContent?.confirmText || 'Confirm')}
               </Button>
@@ -514,7 +514,7 @@ export function OptionsPage({ purchaseData, onBack }: OptionsPageProps) {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4">
               <Button
                 onClick={() => setActionResult(null)}
-                className="flex-1 h-11 sm:h-12 bg-amber-600 hover:bg-amber-700 dark:bg-amber-600 dark:hover:bg-amber-700 text-white font-medium rounded-lg text-sm sm:text-base transition-all duration-200 shadow-sm hover:shadow-md"
+                className="flex-1 h-11 sm:h-12 bg-blue-900 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 text-white font-medium rounded-lg text-sm sm:text-base transition-all duration-200 shadow-sm hover:shadow-md"
               >
                 {actionResult?.success ? 'Continue' : 'Try Again'}
               </Button>
@@ -551,7 +551,7 @@ export function OptionsPage({ purchaseData, onBack }: OptionsPageProps) {
             <p className="text-muted-foreground mb-6">
               There was an error loading this page. Please try again.
             </p>
-            <Button onClick={onBack} className="bg-amber-600 hover:bg-amber-700 text-white">
+            <Button onClick={onBack} className="bg-blue-900 hover:bg-blue-700 text-white">
               Go Back
             </Button>
           </div>

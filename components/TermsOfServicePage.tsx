@@ -35,7 +35,7 @@ export function TermsOfServicePage({ onBack }: TermsOfServicePageProps) {
         <Card className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow-sm max-w-4xl mx-auto">
           <CardHeader className="p-4 sm:p-6 pb-3 sm:pb-4">
             <CardTitle className="text-base sm:text-lg font-semibold text-gray-900 dark:text-gray-100">
-              Sterling & Associates Terms of Service
+              Anderson Tyson Terms of Service
             </CardTitle>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
               Effective Date: September 25, 2025
@@ -76,7 +76,7 @@ export function TermsOfServicePage({ onBack }: TermsOfServicePageProps) {
 
               <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">6. Intellectual Property</h3>
               <p className="mb-4">
-                All content, design, and trademarks belong to Sterling & Associates LLC or its licensors. You may not reproduce, distribute, or copy without permission.
+                All content, design, and trademarks belong to Anderson Tyson LLC or its licensors. You may not reproduce, distribute, or copy without permission.
               </p>
 
               <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">7. Third-Party Links</h3>
@@ -91,7 +91,7 @@ export function TermsOfServicePage({ onBack }: TermsOfServicePageProps) {
 
               <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">9. Limitation of Liability</h3>
               <p className="mb-4">
-                Sterling & Associates LLC is not liable for indirect, incidental, or consequential damages resulting from use of the Service.
+                Anderson Tyson LLC is not liable for indirect, incidental, or consequential damages resulting from use of the Service.
               </p>
 
               <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">10. Indemnification</h3>
@@ -116,12 +116,12 @@ export function TermsOfServicePage({ onBack }: TermsOfServicePageProps) {
 
               <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">14. Entire Agreement</h3>
               <p className="mb-4">
-                These Terms, along with posted policies, form the full agreement between you and Sterling & Associates LLC.
+                These Terms, along with posted policies, form the full agreement between you and Anderson Tyson LLC.
               </p>
 
               <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">Contact Information</h3>
               <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                <p className="font-medium text-gray-900 dark:text-gray-100">Sterling & Associates LLC</p>
+                <p className="font-medium text-gray-900 dark:text-gray-100">Anderson Tyson LLC</p>
                 <p>1005 Virginia Ave, Ste 230</p>
                 <p>Hapeville, GA 30354, USA</p>
                 <p>Email: admin@sterlingcompliance.net</p>

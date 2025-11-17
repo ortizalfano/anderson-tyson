@@ -60,10 +60,10 @@ Action Required:
 ===============
 Please process the {{request_type}} for the above transaction.
 
-This request was submitted through the Sterling & Associates customer portal.
+This request was submitted through the Anderson Tyson customer portal.
 
 ---
-Sterling & Associates
+Anderson Tyson
 Customer Support System
 ```
 
@@ -125,6 +125,7 @@ For production use, consider upgrading to a paid plan.
 - Never commit your `.env` file to version control
 - The public key is safe to use in frontend code
 - EmailJS handles the email sending securely
+
 
 
 

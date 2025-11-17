@@ -34,7 +34,7 @@ export function HomePage({ onNavigateToLookup, onNavigateToHelp }: HomePageProps
               How can we help you today?
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto px-2 sm:px-4 md:px-0 leading-relaxed">
-              Fast, secure assistance for transactions processed by Sterling and Associates.
+              Fast, secure assistance for transactions processed by Anderson Tyson.
             </p>
           </div>
 
@@ -44,8 +44,8 @@ export function HomePage({ onNavigateToLookup, onNavigateToHelp }: HomePageProps
             <Card className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 h-full flex flex-col">
               <CardHeader className="p-4 sm:p-5 md:p-6 pb-3 sm:pb-4">
                 <CardTitle className="text-base sm:text-lg md:text-xl font-semibold text-gray-900 dark:text-gray-100 flex items-start gap-2 sm:gap-3 leading-tight">
-                  <div className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 rounded-lg bg-amber-50 dark:bg-amber-900/30 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <FileText className="h-4 w-4 sm:h-5 sm:w-5 text-amber-600 dark:text-amber-400" />
+                  <div className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 rounded-lg bg-blue-50 dark:bg-blue-950/40 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <FileText className="h-4 w-4 sm:h-5 sm:w-5 text-blue-900 dark:text-blue-400" />
                   </div>
                   <span className="text-sm sm:text-base md:text-lg">I need help with a recent transaction</span>
                 </CardTitle>
@@ -59,7 +59,7 @@ export function HomePage({ onNavigateToLookup, onNavigateToHelp }: HomePageProps
                 <div className="space-y-2 sm:space-y-2.5">
                   {quickActions.map((action, index) => (
                     <div key={index} className="flex items-center gap-3 sm:gap-4 py-1.5 sm:py-2">
-                      <action.icon className="h-4 w-4 sm:h-5 sm:w-5 text-amber-600 dark:text-amber-400 flex-shrink-0" />
+                      <action.icon className="h-4 w-4 sm:h-5 sm:w-5 text-blue-900 dark:text-blue-400 flex-shrink-0" />
                       <span className="text-sm sm:text-base text-gray-700 dark:text-gray-300">{action.label}</span>
                     </div>
                   ))}
@@ -69,7 +69,7 @@ export function HomePage({ onNavigateToLookup, onNavigateToHelp }: HomePageProps
               <CardFooter className="p-4 sm:p-5 md:p-6 pt-0 mt-auto">
                 <Button 
                   onClick={onNavigateToLookup}
-                  className="w-full bg-amber-600 hover:bg-amber-700 dark:bg-amber-600 dark:hover:bg-amber-700 text-white font-medium py-3 sm:py-3.5 md:py-4 px-4 sm:px-6 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2 text-sm sm:text-base md:text-lg"
+                  className="w-full bg-blue-900 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 text-white font-medium py-3 sm:py-3.5 md:py-4 px-4 sm:px-6 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2 text-sm sm:text-base md:text-lg"
                 >
                   Look up my transaction
                   <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
@@ -81,17 +81,17 @@ export function HomePage({ onNavigateToLookup, onNavigateToHelp }: HomePageProps
             <Card className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 h-full flex flex-col">
               <CardHeader className="p-4 sm:p-5 md:p-6 pb-3 sm:pb-4">
                 <CardTitle className="text-base sm:text-lg md:text-xl font-semibold text-gray-900 dark:text-gray-100 flex items-start gap-2 sm:gap-3 leading-tight">
-                  <div className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 rounded-lg bg-amber-50 dark:bg-amber-900/30 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <ShieldCheck className="h-4 w-4 sm:h-5 sm:w-5 text-amber-600 dark:text-amber-400" />
+                  <div className="h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10 rounded-lg bg-blue-50 dark:bg-blue-950/40 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <ShieldCheck className="h-4 w-4 sm:h-5 sm:w-5 text-blue-900 dark:text-blue-400" />
                   </div>
-                  <span className="text-sm sm:text-base md:text-lg">I'm not sure why Sterling and Associates has charged me</span>
+                  <span className="text-sm sm:text-base md:text-lg">I'm not sure why Anderson Tyson has charged me</span>
                 </CardTitle>
               </CardHeader>
               
               <CardContent className="px-4 sm:px-5 md:px-6 pb-3 sm:pb-4 flex-1">
                 <p className="text-gray-600 dark:text-gray-400 mb-4 sm:mb-5 text-sm sm:text-base leading-relaxed">
-                  Sterling and Associates securely processes payments for outstanding balances and accounts receivable. 
-                  In some cases, the representative may not have explained that Sterling and Associates would appear 
+                  Anderson Tyson securely processes payments for outstanding balances and accounts receivable. 
+                  In some cases, the representative may not have explained that Anderson Tyson would appear 
                   on your statement. The amount you see may also differ from what you expected due to regular payment adjustments.
                 </p>
                 
@@ -114,7 +114,7 @@ export function HomePage({ onNavigateToLookup, onNavigateToHelp }: HomePageProps
                 <Button 
                   onClick={onNavigateToHelp}
                   variant="outline"
-                  className="w-full border-amber-300 dark:border-amber-600 text-amber-700 dark:text-amber-300 hover:bg-amber-50 dark:hover:bg-amber-900/20 font-medium py-3 sm:py-3.5 md:py-4 px-4 sm:px-6 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2 text-sm sm:text-base md:text-lg"
+                  className="w-full border-blue-900 dark:border-blue-800 text-blue-900 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950/40 font-medium py-3 sm:py-3.5 md:py-4 px-4 sm:px-6 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2 text-sm sm:text-base md:text-lg"
                 >
                   Get help identifying this charge
                   <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />

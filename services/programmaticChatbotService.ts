@@ -98,7 +98,7 @@ class ProgrammaticChatbotService {
     // Handle "End conversation" regardless of current step
     if (message.toLowerCase().includes('end conversation') || message.toLowerCase().includes('end chat')) {
       return {
-        message: 'Thank you for using Sterling & Associates support! Have a great day! 👋',
+        message: 'Thank you for using Anderson Tyson support! Have a great day! 👋',
         suggestions: [],
         state: { ...state, step: 'conversation_ended' }
       };
@@ -128,7 +128,7 @@ class ProgrammaticChatbotService {
 
       case 'conversation_ended':
         return {
-          message: 'Thank you for using Sterling & Associates support! Have a great day! 👋',
+          message: 'Thank you for using Anderson Tyson support! Have a great day! 👋',
           suggestions: [],
           state: { ...state, step: 'conversation_ended' }
         };
@@ -154,7 +154,7 @@ class ProgrammaticChatbotService {
         lowerMessage.includes('help') || lowerMessage.includes('find')) {
       
       return {
-        message: `Hello! 👋 I'm your virtual assistant for Sterling & Associates. I can help you find your transactions.
+        message: `Hello! 👋 I'm your virtual assistant for Anderson Tyson. I can help you find your transactions.
 
 I'll search for your transaction using the **last 4 digits of your card** - just like our main search form.
 
@@ -166,7 +166,7 @@ Please provide the last 4 digits of the card you used for the transaction.`,
 
     // Default greeting
     return {
-      message: `Hello! 👋 I'm your virtual assistant for Sterling & Associates. I can help you find your transactions and resolve billing issues.
+      message: `Hello! 👋 I'm your virtual assistant for Anderson Tyson. I can help you find your transactions and resolve billing issues.
 
 To get started, I'll need the **last 4 digits of your card**. This is the only required information.
 

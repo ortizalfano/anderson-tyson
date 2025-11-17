@@ -20,7 +20,7 @@ export function Footer({ onNavigateToTerms, onNavigateToPrivacy, onNavigateToRef
               </div>
               <a 
                 href="tel:+18555998052"
-                className="text-amber-600 dark:text-amber-400 hover:text-amber-700 dark:hover:text-amber-300 font-medium transition-colors duration-200"
+                className="text-blue-900 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium transition-colors duration-200"
               >
                 +1 (855) 599-8052
               </a>
@@ -51,7 +51,7 @@ export function Footer({ onNavigateToTerms, onNavigateToPrivacy, onNavigateToRef
 
               {/* Copyright */}
               <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 text-center md:text-right">
-                © 2025 Sterling & Associates. All rights reserved.
+                © 2025 Anderson Tyson. All rights reserved.
               </div>
             </div>
           </div>

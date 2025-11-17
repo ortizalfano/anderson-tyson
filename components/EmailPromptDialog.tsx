@@ -73,7 +73,7 @@ export function EmailPromptDialog({ open, onClose, onSubmit }: EmailPromptDialog
           </Button>
           <Button
             onClick={handleSubmit}
-            className="flex-1 h-11 sm:h-12 bg-amber-600 hover:bg-amber-700 dark:bg-amber-600 dark:hover:bg-amber-700 text-white font-medium rounded-lg text-sm sm:text-base order-1 sm:order-2 transition-all duration-200 shadow-sm hover:shadow-md focus-ring"
+            className="flex-1 h-11 sm:h-12 bg-blue-900 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 text-white font-medium rounded-lg text-sm sm:text-base order-1 sm:order-2 transition-all duration-200 shadow-sm hover:shadow-md focus-ring"
           >
             Submit Refund Request
           </Button>

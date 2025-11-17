@@ -1,6 +1,6 @@
-# Sterling & Associates - Transaction Lookup System
+# Anderson Tyson - Transaction Lookup System
 
-A modern web application for Sterling & Associates to help customers find and manage their transactions. Built with React, TypeScript, and integrated with Airtable and Google Gemini AI.
+A modern web application for Anderson Tyson to help customers find and manage their transactions. Built with React, TypeScript, and integrated with Airtable and Google Gemini AI.
 
 ## 🚀 Features
 
@@ -45,7 +45,7 @@ A modern web application for Sterling & Associates to help customers find and ma
 
 ## 📝 License
 
-This project is proprietary software for Sterling & Associates.
+This project is proprietary software for Anderson Tyson.
 
 ## 👥 Support
 
@@ -53,7 +53,8 @@ For technical support or questions, please contact the development team.
 
 ---
 
-**Sterling & Associates** - Secure Transaction Management
+**Anderson Tyson** - Secure Transaction Management
+
 
 
 

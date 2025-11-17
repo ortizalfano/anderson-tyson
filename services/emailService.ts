@@ -131,10 +131,10 @@ Action Required:
 ===============
 Please process the refund request for the above transaction.
 
-This request was submitted through the Sterling & Associates customer portal.
+This request was submitted through the Anderson Tyson customer portal.
 
 ---
-Sterling & Associates
+Anderson Tyson
 Customer Support System
     `.trim();
   }
@@ -312,10 +312,10 @@ ${data.rescheduleDate ? `The customer has requested to reschedule to: ${new Date
       day: 'numeric'
     })}` : 'The customer has requested to cancel the subscription.'}
 
-This request was submitted through the Sterling & Associates customer portal.
+This request was submitted through the Anderson Tyson customer portal.
 
 ---
-Sterling & Associates
+Anderson Tyson
 Customer Support System
     `.trim();
   }
@@ -417,10 +417,10 @@ Action Required:
 ===============
 Please process the payment update request for the above transaction.
 
-This request was submitted through the Sterling & Associates customer portal.
+This request was submitted through the Anderson Tyson customer portal.
 
 ---
-Sterling & Associates
+Anderson Tyson
 Customer Support System
     `.trim();
   }

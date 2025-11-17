@@ -51,7 +51,7 @@ class ErrorBoundary extends Component<Props, State> {
             <div className="space-y-3">
               <Button 
                 onClick={() => window.location.reload()}
-                className="w-full bg-amber-600 hover:bg-amber-700 text-white"
+                className="w-full bg-blue-900 hover:bg-blue-700 text-white"
               >
                 Recargar página
               </Button>

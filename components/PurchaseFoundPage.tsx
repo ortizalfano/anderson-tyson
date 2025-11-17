@@ -152,7 +152,7 @@ export function PurchaseFoundPage({ onBack, onSearchAgain, purchaseData }: Purch
             <p className="text-gray-600 dark:text-gray-400 mb-6">
               No se pudieron cargar los datos de la transacción. Por favor, intenta buscar de nuevo.
             </p>
-            <Button onClick={safeOnSearchAgain} className="bg-amber-600 hover:bg-amber-700 text-white">
+            <Button onClick={safeOnSearchAgain} className="bg-blue-900 hover:bg-blue-700 text-white">
               Buscar de nuevo
             </Button>
           </div>
@@ -167,8 +167,8 @@ export function PurchaseFoundPage({ onBack, onSearchAgain, purchaseData }: Purch
       icon: RotateCcw,
       title: "Request a Refund",
       description: "Get your money back for this transaction",
-      color: "text-amber-600 dark:text-amber-400",
-      bgColor: "bg-amber-50 dark:bg-amber-900/30"
+      color: "text-blue-900 dark:text-blue-400",
+      bgColor: "bg-blue-50 dark:bg-blue-950/40"
     },
     {
       id: "cancel",
@@ -422,7 +422,7 @@ export function PurchaseFoundPage({ onBack, onSearchAgain, purchaseData }: Purch
                     key={transaction.transactionId}
                     className={`border rounded-lg p-3 sm:p-4 cursor-pointer transition-all duration-200 ${
                       selectedTransactionId === transaction.transactionId
-                        ? 'border-amber-500 bg-amber-50 dark:bg-amber-900/20 dark:border-amber-400'
+                        ? 'border-blue-900 bg-blue-50 dark:bg-blue-950/40 dark:border-blue-400'
                         : 'border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600'
                     }`}
                     onClick={() => setSelectedTransactionId(transaction.transactionId)}
@@ -431,7 +431,7 @@ export function PurchaseFoundPage({ onBack, onSearchAgain, purchaseData }: Purch
                       {/* Custom checkbox */}
                       <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all duration-200 ${
                         selectedTransactionId === transaction.transactionId
-                          ? 'border-amber-500 bg-amber-500'
+                          ? 'border-blue-900 bg-blue-900'
                           : 'border-gray-300 dark:border-gray-600'
                       }`}>
                         {selectedTransactionId === transaction.transactionId && (
@@ -572,7 +572,7 @@ export function PurchaseFoundPage({ onBack, onSearchAgain, purchaseData }: Purch
                       <Building className="h-5 w-5 text-gray-500 dark:text-gray-400 flex-shrink-0" />
                       <div>
                         <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Merchant:</span>
-                        <span className="text-sm text-gray-900 dark:text-gray-100 ml-2">Sterling & Associates</span>
+                        <span className="text-sm text-gray-900 dark:text-gray-100 ml-2">Anderson Tyson</span>
                       </div>
                     </div>
                     
@@ -621,7 +621,7 @@ export function PurchaseFoundPage({ onBack, onSearchAgain, purchaseData }: Purch
                   <div className="flex flex-col items-center text-center space-y-3 sm:space-y-4">
                     <div className={`h-12 w-12 sm:h-14 sm:w-14 lg:h-16 lg:w-16 rounded-xl ${action.bgColor} flex items-center justify-center`}>
                       {isChecking ? (
-                        <div className="animate-spin rounded-full h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8 border-2 border-gray-300 border-t-amber-600"></div>
+                        <div className="animate-spin rounded-full h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8 border-2 border-gray-300 border-t-blue-900"></div>
                       ) : (
                         <action.icon className={`h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8 ${action.color}`} />
                       )}
@@ -782,7 +782,7 @@ export function PurchaseFoundPage({ onBack, onSearchAgain, purchaseData }: Purch
               <Button
                 onClick={handleConfirmAction}
                 disabled={isProcessing}
-                className="flex-1 h-11 sm:h-12 bg-amber-600 hover:bg-amber-700 dark:bg-amber-600 dark:hover:bg-amber-700 text-white font-medium rounded-lg text-sm sm:text-base order-1 sm:order-2 transition-all duration-200 shadow-sm hover:shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
+                className="flex-1 h-11 sm:h-12 bg-blue-900 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 text-white font-medium rounded-lg text-sm sm:text-base order-1 sm:order-2 transition-all duration-200 shadow-sm hover:shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isProcessing ? 'Processing...' : (selectedActionContent?.confirmText || 'Confirm')}
               </Button>
@@ -813,7 +813,7 @@ export function PurchaseFoundPage({ onBack, onSearchAgain, purchaseData }: Purch
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4">
               <Button
                 onClick={() => setActionResult(null)}
-                className="flex-1 h-11 sm:h-12 bg-amber-600 hover:bg-amber-700 dark:bg-amber-600 dark:hover:bg-amber-700 text-white font-medium rounded-lg text-sm sm:text-base transition-all duration-200 shadow-sm hover:shadow-md"
+                className="flex-1 h-11 sm:h-12 bg-blue-900 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-700 text-white font-medium rounded-lg text-sm sm:text-base transition-all duration-200 shadow-sm hover:shadow-md"
               >
                 {actionResult?.success ? 'Continue' : 'Try Again'}
               </Button>
@@ -835,7 +835,7 @@ export function PurchaseFoundPage({ onBack, onSearchAgain, purchaseData }: Purch
             <p className="text-gray-600 dark:text-gray-400 mb-6">
               There was an error loading this page. Please try again.
             </p>
-            <Button onClick={safeOnSearchAgain} className="bg-amber-600 hover:bg-amber-700 text-white">
+            <Button onClick={safeOnSearchAgain} className="bg-blue-900 hover:bg-blue-700 text-white">
               Go Back
             </Button>
           </div>

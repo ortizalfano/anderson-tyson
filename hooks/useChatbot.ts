@@ -36,7 +36,7 @@ export function useChatbot(): UseChatbotReturn {
       const welcomeMessage: ChatMessage = {
         id: 'welcome',
         role: 'assistant',
-        message: 'Hello! 👋 I\'m your virtual assistant for Sterling & Associates. I can help you find your transactions and resolve billing issues. How can I assist you today?',
+        message: 'Hello! 👋 I\'m your virtual assistant for Anderson Tyson. I can help you find your transactions and resolve billing issues. How can I assist you today?',
         timestamp: new Date().toISOString(),
         suggestions: ['Find my transaction', 'Help with a charge', 'Request refund']
       };
@@ -114,7 +114,7 @@ export function useChatbot(): UseChatbotReturn {
     const welcomeMessage: ChatMessage = {
       id: 'welcome',
       role: 'assistant',
-      message: 'Hello! 👋 I\'m your virtual assistant for Sterling & Associates. I can help you find your transactions and resolve billing issues. How can I assist you today?',
+      message: 'Hello! 👋 I\'m your virtual assistant for Anderson Tyson. I can help you find your transactions and resolve billing issues. How can I assist you today?',
       timestamp: new Date().toISOString(),
       suggestions: ['Find my transaction', 'Help with a charge', 'Request refund']
     };

@@ -35,7 +35,7 @@ export function PrivacyPolicyPage({ onBack }: PrivacyPolicyPageProps) {
         <Card className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl shadow-sm max-w-4xl mx-auto">
           <CardHeader className="p-4 sm:p-6 pb-3 sm:pb-4">
             <CardTitle className="text-base sm:text-lg font-semibold text-gray-900 dark:text-gray-100">
-              Sterling & Associates Privacy Policy
+              Anderson Tyson Privacy Policy
             </CardTitle>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
               Effective Date: September 25, 2025
@@ -45,7 +45,7 @@ export function PrivacyPolicyPage({ onBack }: PrivacyPolicyPageProps) {
             <div className="prose prose-sm sm:prose-base max-w-none text-gray-700 dark:text-gray-300">
               <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">1. Introduction</h3>
               <p className="mb-4">
-                Your privacy is important to us. This policy explains how Sterling & Associates LLC collects, uses, and protects your data.
+                Your privacy is important to us. This policy explains how Anderson Tyson LLC collects, uses, and protects your data.
               </p>
 
               <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">2. Data We Collect</h3>
@@ -102,7 +102,7 @@ export function PrivacyPolicyPage({ onBack }: PrivacyPolicyPageProps) {
 
               <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">Contact Information</h3>
               <div className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                <p className="font-medium text-gray-900 dark:text-gray-100">Sterling & Associates LLC</p>
+                <p className="font-medium text-gray-900 dark:text-gray-100">Anderson Tyson LLC</p>
                 <p>1005 Virginia Ave, Ste 230</p>
                 <p>Hapeville, GA 30354, USA</p>
                 <p>Email: admin@sterlingcompliance.net</p>
