@@ -19,10 +19,10 @@ export function Footer({ onNavigateToTerms, onNavigateToPrivacy, onNavigateToRef
                 <span>Have any questions or concerns? Please contact us:</span>
               </div>
               <a 
-                href="tel:+18555998052"
+                href="tel:+18666321834"
                 className="text-blue-900 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium transition-colors duration-200"
               >
-                +1 (855) 599-8052
+                +1 (866) 632-1834
               </a>
             </div>
 

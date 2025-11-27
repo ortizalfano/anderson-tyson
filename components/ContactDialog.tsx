@@ -34,10 +34,10 @@ export function ContactDialog({ children }: ContactDialogProps) {
                 </div>
               </div>
               <a 
-                href="tel:+18555998052"
+                href="tel:+18666321834"
                 className="text-blue-900 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 text-sm font-medium transition-colors duration-200"
               >
-                +1 (855) 599-8052
+                +1 (866) 632-1834
               </a>
             </div>
 
@@ -51,7 +51,7 @@ export function ContactDialog({ children }: ContactDialogProps) {
                 </div>
               </div>
               <a 
-                href="sms:+18555998052"
+                href="sms:+18666321834"
                 className="text-blue-900 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 text-sm font-medium transition-colors duration-200"
               >
                 Message
